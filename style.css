@@ -123,15 +123,153 @@
     .form {
       position: static; /* Change to static to allow normal flow */
       text-align: center; /* Center align the content */
+      margin-left: auto; 
+      margin-right: auto; /* Center align the content */
+      margin-top: 3rem;
     }
   
     .lab {
       display: block; /* Change to block to force it onto a new line */
       margin-bottom: 5px; /* Create space between "Get Notified" and the input */
+      margin-bottom: 13px;
     }
   
     input {
       width: 100%; /* Make the input full width */
     }
+    button{
+      margin-top: 13px;
+    }
   }
+  @media (max-width: 405px) {
+    .form {
+      position: static; /* Change to static to allow normal flow */
+      text-align: center; /* Center align the content */
+      margin-left: auto; 
+      margin-right: auto; /* Center align the content */
+      margin-top: 3rem;
+    }
   
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; /* Create space between "Get Notified" and the input */
+      margin-bottom: 13px;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+    button{
+      margin-top: 13px;
+    }
+  }
+  @media (max-width: 407px) {
+    .form {
+      position: static; /* Change to static to allow normal flow */
+      text-align: center; /* Center align the content */
+      margin-left: auto; 
+      margin-right: auto; /* Center align the content */
+      margin-top: 3rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; /* Create space between "Get Notified" and the input */
+      margin-bottom: 13px;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+    button{
+      margin-top: 13px;
+    }
+  }
+  @media (max-width: 409px) {
+    .form {
+      position: static; /* Change to static to allow normal flow */
+      text-align: center; /* Center align the content */
+      margin-left: auto; 
+      margin-right: auto; /* Center align the content */
+      margin-top: 3rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; /* Create space between "Get Notified" and the input */
+      margin-bottom: 13px;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+    button{
+      margin-top: 13px;
+    }
+  }
+  @media (max-width: 415px) {
+    .form {
+      position: static; /* Change to static to allow normal flow */
+      text-align: center; /* Center align the content */
+      margin-left: auto; 
+      margin-right: auto; /* Center align the content */
+      margin-top: 3rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; /* Create space between "Get Notified" and the input */
+      margin-bottom: 13px;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+    button{
+      margin-top: 13px;
+    }
+  }
+  @media (max-width: 420px) {
+    .form {
+      position: static; /* Change to static to allow normal flow */
+      text-align: center; /* Center align the content */
+      margin-left: auto; 
+      margin-right: auto; /* Center align the content */
+      margin-top: 3rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; /* Create space between "Get Notified" and the input */
+      margin-bottom: 13px;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+    button{
+      margin-top: 13px;
+    }
+  }
+  @media (max-width: 380px) {
+    .form {
+      position: static; /* Change to static to allow normal flow */
+      text-align: center; /* Center align the content */
+      margin-left: auto; 
+      margin-right: auto; /* Center align the content */
+      margin-top: 3rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; /* Create space between "Get Notified" and the input */
+      margin-bottom: 13px;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+    button{
+      margin-top: 13px;
+    }
+  }
