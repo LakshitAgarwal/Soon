@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+.soon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .soon h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 130px;
+  color: #feeaee;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid #ff0089;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  
+  video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+  }
+  
+  .soon::after {
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last value) to change darkness */
+  z-index: -99;
+  }
+
+  @media (max-width: 755px) {
+    .soon h1 {
+      font-size: 110px;
+    }
+  }
+  @media (max-width: 620px) {
+    .soon h1 {
+      font-size: 100px;
+    }
+  }
+  @media (max-width: 600px) {
+    .soon h1 {
+      font-size: 90px;
+    }
+  }
+  @media (max-width: 550px) {
+    .soon h1 {
+      font-size: 80px;
+    }
+  }
+  @media (max-width: 500px) {
+    .soon h1 {
+      font-size: 70px;
+    }
+  }
+  @media (max-width: 450px) {
+    .soon h1 {
+      font-size: 60px;
+    }
+  }
+  @media (max-width: 400px) {
+    .soon h1 {
+      font-size: 50px;
+    }
+  }
