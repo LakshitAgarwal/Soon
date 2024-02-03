@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 .soon {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   }
   
   .soon h1 {
@@ -74,5 +75,209 @@
   @media (max-width: 400px) {
     .soon h1 {
       font-size: 50px;
+    }
+  }
+
+  .form{
+    position: absolute;
+    bottom: 13rem;
+    margin-right: 80px;
+  }
+
+  .lab{
+    color: #feeaee;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 10px;
+  }
+
+  input{
+    width: 230px;
+    height: 43px;
+    border-radius: 100px;
+    border: none;
+    padding-left: 10px;
+  }
+
+  button{
+    width: 70px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    background-color: #feeaee;
+    color: #ea64ac;
+    border: 2px solid #ff0089;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  button:hover{
+    background-color: #ff0089;
+    color: #feeaee;
+    cursor: pointer;
+    border: 2px solid #feeaee;
+  }
+
+  @media (max-width: 400px) {
+    .form {
+      position: fixed;
+      text-align: center;
+      left: 20%;
+      bottom: 12rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; 
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+
+    button{
+      margin-top: 15px;
+    }
+  }
+  @media (max-width: 405px) {
+    .form {
+      position: fixed;
+      text-align: center;
+      left: 20%;
+      bottom: 12rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; 
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+
+    button{
+      margin-top: 15px;
+    }
+  }
+  @media (max-width: 407px) {
+    .form {
+      position: fixed;
+      text-align: center;
+      left: 20%;
+      bottom: 12rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; 
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+
+    button{
+      margin-top: 15px;
+    }
+  }
+  @media (max-width: 409px) {
+    .form {
+      position: fixed;
+      text-align: center;
+      left: 20%;
+      bottom: 12rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; 
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+
+    button{
+      margin-top: 15px;
+    }
+  }
+  @media (max-width: 415px) {
+    .form {
+      position: fixed;
+      text-align: center;
+      left: 20%;
+      bottom: 12rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; 
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+
+    button{
+      margin-top: 15px;
+    }
+  }
+  @media (max-width: 420px) {
+    .form {
+      position: fixed;
+      text-align: center;
+      left: 20%;
+      bottom: 12rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; 
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+
+    button{
+      margin-top: 15px;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .form {
+      position: fixed;
+      text-align: center;
+      left: 20%;
+      bottom: 8rem;
+    }
+  
+    .lab {
+      display: block; /* Change to block to force it onto a new line */
+      margin-bottom: 5px; 
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  
+    input {
+      width: 100%; /* Make the input full width */
+    }
+
+    button{
+      margin-top: 15px;
     }
   }

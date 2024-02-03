@@ -1,0 +1,55 @@
+<!-- Modify this form HTML and place wherever you want your form -->
+<form id="myForm">
+    <label>
+      Your email:
+      <input type="email" name="email" id="email" />
+    </label>
+    <label>
+      Your message:
+      <textarea name="message" id="message"></textarea>
+    </label>
+    <!-- your other form fields go here -->
+    <button type="button" onclick="submitForm()">Send</button>
+  </form>
+  
+  <script>
+    function submitForm() {
+      // Get form data
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+  
+      // Validate data if needed
+  
+      // Construct the payload
+      const payload = {
+        email: email,
+        message: message,
+        // Add other form fields as needed
+      };
+  
+      // Make an asynchronous POST request using Fetch API
+      fetch("https://formspree.io/f/xpzvpddj", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      })
+        .then((response) => {
+          if (response.ok) {
+            // Handle success (e.g., show a success message)
+            alert("Form submitted successfully!");
+            // Optionally, reset the form
+            document.getElementById("myForm").reset();
+          } else {
+            // Handle error (e.g., show an error message)
+            alert("Error submitting form. Please try again.");
+          }
+        })
+        .catch((error) => {
+          // Handle network error
+          console.error("Network error:", error);
+          alert("Network error. Please try again.");
+        });
+    }
+  </script>
